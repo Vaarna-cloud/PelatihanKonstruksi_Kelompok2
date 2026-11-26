@@ -1,0 +1,29 @@
+# Python virtual environments & cache
+python_ai/.venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Model AI lokal berukuran besar (>100MB tidak diperbolehkan GitHub)
+# python_ai/models/ dihapus sementara agar vosk-model-small-en-us-0.15 ikut ter-push
+
+# Folder bawaan Unity yang tidak boleh di-push (Pedoman Bagian 9)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+*.csproj
+*.sln
+*.user
+*.unityproj
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

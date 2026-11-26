@@ -1,0 +1,24 @@
+{
+  "tokens": {
+    "CMD_1": {
+      "canonical": "up",
+      "aliases": ["up", "lift", "hoist"]
+    },
+    "CMD_2": {
+      "canonical": "down",
+      "aliases": ["down", "lower"]
+    },
+    "CMD_3": {
+      "canonical": "stop",
+      "aliases": ["stop", "hold"]
+    },
+    "CMD_4": {
+      "canonical": "cancel",
+      "aliases": ["cancel", "abort"]
+    },
+    "CMD_5": {
+      "canonical": "confirm",
+      "aliases": ["confirm", "yes"]
+    }
+  }
+}

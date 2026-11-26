@@ -1,0 +1,8 @@
+# Dependensi Lapis Penghasil Data (Python 3.12)
+# Catatan: Pada Linux, pastikan paket sistem PortAudio terpasang:
+#   sudo apt install portaudio19-dev ffmpeg
+
+vosk>=0.3.45
+sounddevice>=0.5.0
+numpy>=1.26.4
+faster-whisper>=1.0.3
